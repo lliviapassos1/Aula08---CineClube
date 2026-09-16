@@ -1,0 +1,32 @@
+============================================================
+FICHA DE ENTREGA DA ATIVIDADE - BANCO DE DADOS & SUPABASE
+============================================================
+Aluno(a): Lívia Passos Campos
+Tema Atribuído: Tema 15 - Cineclube & Cinema de Rua
+Vídeo de Demonstração (YouTube): https://youtu.be/4goq1o2KoB0
+============================================================
+
+-- [Missão 1: Projeção & Aliases]
+INSERT INTO sessoes_cinema (filme_titulo, diretor, sala_numero, horario, preco_inteira, lotacao_maxima) VALUES
+--  ('Para todos os garotos que já amei', 'Susan Johnson', 5, '19:30:00', 42.00, 180),
+--  ('Os Farofeiros', 'Roberto Santucci', 3, '21:00:00', 30.00, 90),
+--  ('Hotel Transilvânia', 'Genndy Tartakovsky', 4, '16:00:00', 28.00, 180),
+--  ('Minha melhor amiga', ' Susana Garcia', 2, '15:15:00', 10.00, 110),
+--  ('Jumanji', ' Joe Johnston', 1, '18:00:00', 22.00, 90);
+
+-- [Missão 2: Transformação Aritmética]
+select
+--  preco_inteira AS "Valor total ",
+--  (preco_inteira / 2) AS "Valor meia entrada"
+--  FROM sessoes_cinema;
+
+-- [Missão 3: Filtro com WHERE e Lógica]
+SELECT sala_numero, preco_inteira
+-- FROM sessoes_cinema
+-- WHERE preco_inteira >= 35.00;
+
+-- [Missão 4: Lapidação (ORDER BY e LIMIT)]
+SELECT filme_titulo, preco_inteira
+-- FROM sessoes_cinema
+-- ORDER BY preco_inteira DESC
+-- LIMIT 2;
